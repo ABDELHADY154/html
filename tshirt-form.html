@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T-Shirt Form</title>
+</head>
+
+<body>
+    <h2>Submit your T-Shirt information</h2>
+
+    <form method="GET">
+        <label>First Name:
+            <input type="text" name="firstName" placeholder="Jane" />
+        </label>
+        <br>
+        <br>
+        <label>Last Name:
+            <input type="text" name="lastName" placeholder="Doe" />
+        </label>
+        <br>
+        <br>
+
+        <label>Type of T-Shirt
+            <select>
+                <option disabled selected>Select Type</option>
+                <option value="short">Short Sleeved</option>
+                <option value="long">Long Sleeved</option>
+                <option value="sleeveless">Sleeveless</option>
+            </select>
+        </label>
+        <br>
+        <br>
+
+        <label>Size:</label>
+        <input type="radio" name="size" value="Large">Large</input>
+        <input type="radio" name="size" value="Medium">Medium</input>
+        <input type="radio" name="size" value="Small">Small</input>
+        <br>
+        <br>
+
+        <label>Age Range: </label>
+        <input type="checkbox" name="age" value="12">12-18</input>
+        <input type="checkbox" name="age" value="19">19-24</input>
+        <input type="checkbox" name="age" value="25">25+</input>
+        <br>
+        <br>
+
+        <label>Comments:
+            <br>
+            <textarea placeholder="Your Comment">
+
+            </textarea>
+        </label>
+        <br>
+        <br>
+
+        <!-- <input type="submit" value="buy now"> -->
+        <button type="submit">Buy now</button>
+        <input type="reset" value="Clear form">
+
+    </form>
+
+</body>
+
+</html>
